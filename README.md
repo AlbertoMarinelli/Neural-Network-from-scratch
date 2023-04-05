@@ -19,6 +19,6 @@ update weights.m.
 
 In the update weights.m function the weight changes $\Delta \textbf{w}$ are computed and the weights updated; also, the momentum technique and L2-regularization are employed. To gain a better control of the different roles of the three hyperparameters, which are the learning rate $\eta$, the momentum coefficient $\alpha$ and the regularization coefficient $\lambda$, it was chosen to keep them separated in the following way:
 
-$\Delta \textbf{w} = \eta\delta_i\textbf{x} + \alpha\Delta \textbf{w}$
+$\Delta \textbf{w}_new = \eta\delta_i\textbf{x} + \alpha\Delta \textbf{w}_old$
 
 $\textbf{w} = \textbf{w} + \Delta \textbf{w}_{new} - \lambda \textbf{w}$
