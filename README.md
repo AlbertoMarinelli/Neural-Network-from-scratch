@@ -20,9 +20,10 @@ update weights.m.
 In the update weights.m function the weight changes $\Delta \textbf{w}$ are computed and the weights updated; also, the momentum technique and L2-regularization are employed. To gain a better control of the different roles of the three hyperparameters, which are the learning rate $\eta$, the momentum coefficient $\alpha$ and the regularization coefficient $\lambda$, it was chosen to keep them separated in the following way:
 <p align="center">
 $\Delta \textbf{w}_{new} = \eta\delta_i\textbf{x} + \alpha\Delta \textbf{w} $
-
-$\textbf{w} = \textbf{w} + \Delta \textbf{w}_{new} - \lambda \textbf{w}$
  </p>
+<p align="center">
+$\textbf{w} = \textbf{w} + \Delta \textbf{w}_{new} - \lambda \textbf{w}$
+</p>
  
 ## Languages and Tools
-<p align="left"> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a></p>
