@@ -7,7 +7,7 @@ Our goal was to create from scratch an Artificial Neural Network able to solve b
 
 For this project, a Neural Network trained through a classical Back-Propagation (BP) approach and employing both the momentum gradient-based optimization technique and L2-regularization were implemented using the MATLAB programming language.
 <br></br>
-## Structure
+## Implementation
 The creation of the weights of the Neural Network is implemented in the init.m function, which lets you choose your own architecture for the network by providing an array in which each element is the number of neurons for that specific layer (e.g. [2, 4, 1] creates
 a Neural Network in which the first layer has two neurons, the hidden layer has four neurons and there is a single output neuron; also, the biases are appropriately added).
 
